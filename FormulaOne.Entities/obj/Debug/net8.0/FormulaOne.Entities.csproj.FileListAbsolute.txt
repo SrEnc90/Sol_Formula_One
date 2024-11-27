@@ -1,0 +1,11 @@
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\bin\Debug\net8.0\FormulaOne.Entities.deps.json
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\bin\Debug\net8.0\FormulaOne.Entities.dll
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\bin\Debug\net8.0\FormulaOne.Entities.pdb
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.AssemblyInfoInputs.cache
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.AssemblyInfo.cs
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.csproj.CoreCompileInputs.cache
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.dll
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\refint\FormulaOne.Entities.dll
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\FormulaOne.Entities.pdb
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Entities\obj\Debug\net8.0\ref\FormulaOne.Entities.dll

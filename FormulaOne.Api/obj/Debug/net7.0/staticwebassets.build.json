@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "a0gd3i8t62X72MLc+fr/0HCqXK4gdp3Q26HB6WybTPE=",
+  "Source": "FormulaOne.Api",
+  "BasePath": "_content/FormulaOne.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
