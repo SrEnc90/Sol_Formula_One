@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormulaOne.AirlineService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976514cedb2fd6bb56a4dc22ef8dfa447b81ae81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14d35fa192dbfeae69bd5cd52186aff96a02d732")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormulaOne.AirlineService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormulaOne.AirlineService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
