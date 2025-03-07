@@ -106,3 +106,4 @@ C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Api\bin\Deb
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Api\bin\Debug\net7.0\Polly.dll
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Api\bin\Debug\net7.0\Polly.Core.dll
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Api\bin\Debug\net7.0\RestSharp.dll
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Api\obj\Debug\net7.0\FormulaOne.Api.sourcelink.json

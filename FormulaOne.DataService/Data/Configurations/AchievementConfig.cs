@@ -8,7 +8,8 @@ public class AchievementConfig : IEntityTypeConfiguration<Achievement>
 {
     public void Configure(EntityTypeBuilder<Achievement> entity)
     {
-        entity.HasOne(d => d.Driver)
+        entity
+            .HasOne(d => d.Driver)
             .WithMany(p => p.Achievements)
             .HasForeignKey(d => d.DriverId)
             .OnDelete(DeleteBehavior.NoAction)

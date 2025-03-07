@@ -9,3 +9,4 @@ C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Service\obj
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Service\obj\Debug\net6.0\refint\FormulaOne.Service.dll
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Service\obj\Debug\net6.0\FormulaOne.Service.pdb
 C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Service\obj\Debug\net6.0\ref\FormulaOne.Service.dll
+C:\WorkSpace\C#\MohamadLawand\RepositoryPatternAutomapper\FormulaOne.Service\obj\Debug\net6.0\FormulaOne.Service.sourcelink.json

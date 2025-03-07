@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FormulaOne.Api.Controllers;
 
-public class DriverController : BaseController
+public class DriversController : BaseController
 {
-    public DriverController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
+    public DriversController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
     {
     }
 

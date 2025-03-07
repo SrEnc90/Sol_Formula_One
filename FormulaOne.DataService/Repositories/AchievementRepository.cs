@@ -20,6 +20,7 @@ public class AchievementRepository : GenericRepository<Achievement>, IAchievemen
         }
         catch (Exception e)
         {
+            //Al ser public y heredado, puedes acceder a él directamente en la clase derivada, como lo estás haciendo en tus métodos (por ejemplo, en _logger.LogError()).
             _logger.LogError(e, "{Repo} GetDriverAchievement function error", typeof(AchievementRepository));
             throw;
         }
