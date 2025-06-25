@@ -2,6 +2,7 @@
 using System.Text.Json.Serialization;
 using FormulaOne.Api.Configurations;
 using FormulaOne.Api.Services;
+using FormulaOne.Api.Services.Interfaces;
 using FormulaOne.DataService.Data;
 using FormulaOne.DataService.Repositories;
 using FormulaOne.DataService.Repositories.Interfaces;
@@ -10,6 +11,7 @@ using FormulaOne.Service.Repositories;
 using FormulaOne.Service.Repositories.Interfaces;
 using Hangfire;
 using Hangfire.Storage.SQLite;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,6 +52,21 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddScoped<IMerchService, MerchService>();
 builder.Services.AddScoped<IMaintenanceService, MaintenanceService>();
+
+//RabbitMQ
+builder.Services.AddScoped<IDriverNotificationPublisherService, DriverNotificationPublisherService>();
+builder.Services.AddMassTransit(conf =>
+{
+    conf.UsingRabbitMq((ctx, cfg) =>
+    {
+        /*cfg.Host(builder.Configuration["RabbitMq:Host"]);*/
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("myuser");
+            h.Password("mypass");
+        });
+    });
+});
 
 //Probando Polly
 builder.Services.AddSingleton<IFlightService, FlightService>();

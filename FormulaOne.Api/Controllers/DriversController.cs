@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using FormulaOne.Api.Services.Interfaces;
 using FormulaOne.DataService.Repositories.Interfaces;
 using FormulaOne.Entities.DbSet;
 using FormulaOne.Entities.Dtos.Reponses;
@@ -9,8 +10,13 @@ namespace FormulaOne.Api.Controllers;
 
 public class DriversController : BaseController
 {
-    public DriversController(IUnitOfWork unitOfWork, IMapper mapper) : base(unitOfWork, mapper)
+    private readonly IDriverNotificationPublisherService _driverNotification;
+    public DriversController(
+        IUnitOfWork unitOfWork, 
+        IMapper mapper,
+        IDriverNotificationPublisherService driverNotification) : base(unitOfWork, mapper)
     {
+        _driverNotification = driverNotification;
     }
 
     [HttpGet]
@@ -44,6 +50,8 @@ public class DriversController : BaseController
 
         await _unitOfWork.Drivers.Add(result);
         await _unitOfWork.CompleteAsync();
+
+        await _driverNotification.SendNotification(result.Id, result.FirstName + " " + result.LastName);
 
         return CreatedAtAction(nameof(GetDriver), new { driverId = result.Id }, result);
     }

@@ -1,4 +1,4 @@
-﻿namespace FormulaOne.Service.Repositories.Interfaces;
+namespace FormulaOne.Service.Repositories.Interfaces;
 
 public interface IMaintenanceService
 {
